@@ -13,10 +13,55 @@ body {
     }
         header {
             text-align: center;
-            height: 80px;
+            height: 100px;
             border-bottom: 3px solid red;
         }
-        .logo {
-            height: 50px;
-            margin-top: 10px;
-        }
+            .fa-spotifye {
+                display: inline-block;
+                border-radius: 50%;
+                line-height: 25px;
+                height: 25px;
+                width: 25px;
+                background-color: #000000;
+                color: #fff;
+            }
+            .logo {
+                height: 50px;
+                margin-top: 10px;
+                text-decoration: none;
+                font-size: 50px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #000000;
+            }
+            .fa-spotifye {
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #fff;
+                border-radius: 50%;
+                line-height: 25px;
+                height: 25px;
+                width: 25px;
+                background-color: #797A7C;
+            }
+            .fa {
+                text-decoration: none;
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #fff;
+                border-radius: 50%;
+                line-height: 25px;
+                height: 25px;
+                width: 25px;
+            }
+            .fa-times-circle {
+                float: left;
+                margin: 10px;
+                background-color: #797A7C;
+                color: #fff;
+            }
+            .fa-chevron-circle-rightn {
+                float: right;
+                margin: 10px;
+                background-color: #B2B3B4;
+                color: #fff;
+            }
