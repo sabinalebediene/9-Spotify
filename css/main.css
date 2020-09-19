@@ -45,14 +45,12 @@ body {
     .row {
         display: inline-block;
         text-align: center;
-        border-bottom: 3px solid #E4E5E6;
-        width: 600px;
-        margin-left: calc((100% - 600px) / 2);
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
         text-transform: uppercase;
         margin-top: 30px;
     }
         .blue-btn {
-            display: inline-block;
             border-radius: 21px;
             background-color: #3B5998;
             padding: 10px;
@@ -61,7 +59,6 @@ body {
             color: #F5F4EA;
         }
         .black-btn {
-            display: inline-block;
             border-radius: 21px;
             background-color: #000000;
             padding: 10px;
@@ -73,8 +70,7 @@ body {
             .fa-facebook{
                 color: #FFFFFF;
             }
-        .white-btn {
-            display: inline-block;
+        .white-btn { 
             border-radius: 21px;
             border: 3px solid #848789;
             background-color: #FFFFFF;
@@ -85,6 +81,19 @@ body {
             margin-top: 10px;
             margin-bottom: 30px;
         }
+    .form {
+        display: inline-block;
+        text-align: center;
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
+        border-top: 3px solid #E4E5E6;
+        border-bottom: 3px solid #E4E5E6;
+    }
+        .form-row {
+            display: inline-block;
+            margin: 5px;
+            width: 100%;
+        }
 
 @media (max-width: 1000px) {
     .container {
@@ -92,6 +101,7 @@ body {
         margin-left: calc((100% - 800px) / 2);
         background-color: red;
         text-align: center;
+        
  
     }
 }
