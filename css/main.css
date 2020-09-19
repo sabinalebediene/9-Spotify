@@ -49,6 +49,8 @@ body {
         margin-left: calc((100% - 400px) / 2);
         text-transform: uppercase;
         margin-top: 30px;
+        margin-bottom: 30px;
+        border-bottom: 3px solid #E4E5E6;
     }
         .blue-btn {
             border-radius: 21px;
@@ -74,7 +76,7 @@ body {
             border-radius: 21px;
             border: 3px solid #848789;
             background-color: #FFFFFF;
-            padding: 10px;
+            padding: 8px;
             padding-left: 50px;
             padding-right: 50px;
             color: #948A88;
@@ -86,7 +88,7 @@ body {
         text-align: center;
         width: 400px;
         margin-left: calc((100% - 400px) / 2);
-        border-top: 3px solid #E4E5E6;
+
         border-bottom: 3px solid #E4E5E6;
     }
         .form-row {
@@ -94,6 +96,35 @@ body {
             margin: 5px;
             width: 100%;
         }
+            .form-row > input {
+                display: inline-block;
+                width: 100%;
+                padding-left: 10px;
+                line-height: 25px;
+            } 
+        .remember {
+            display: inline-block;
+            float: left;
+        }
+            .green-btn {
+                display: inline-block;
+                float: right;
+                border-radius: 20px;
+                background-color: #1DB954;
+                text-transform: uppercase;
+                color: #fff;
+                padding: 10px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        .forgot {
+            display: inline-block;
+            width: 100%;
+        }
+            .forgot {
+                display: inline-block;
+                background-color: #1DB954;
+            }
 
 @media (max-width: 1000px) {
     .container {
