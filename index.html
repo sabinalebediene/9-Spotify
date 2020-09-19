@@ -18,11 +18,25 @@
             <a href="#" target="_blank" class="fa fa-chevron-circle-left fa-2x"></a>
         </header>
         <div class="row">
-            <div class="blue-btn">continue with facebook</div>
-            <div class="black-btn">continue with apple</div>
+            <div class="blue-btn"> <a class="fa fa-facebook"></a> continue with facebook</div>
+            <div class="black-btn"> <a class="fa fa-apple"></a> continue with apple </div>
             <div class="white-btn">continue with phone number</div>
-
         </div>
+        <form class="form">
+            <div class="form">
+                <label for="email"></label>
+                <input id="email" type="Email" placeholder="Email address or username">
+            </div>
+            <div class="form">
+                <label for="pass"></label>
+                <input id="pass" type="Password" placeholder="Password">    
+            </div>
+            <div class="log"></div>
+                <input id="rememberMe" type="checkbox" onclick=lsRememberMe()>
+                <label for="rememberMe">Remember me</label>
+                <div class="green-btn">log in</div>
+                <a class="forgot-link" href="#">Forgot your password?</a>
+            </form>
     </main>
     
 </body>
