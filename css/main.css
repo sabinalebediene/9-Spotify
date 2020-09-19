@@ -121,6 +121,7 @@ body {
                     padding-left: 60px;
                     padding-right: 60px;
                     margin-top: 10px;
+                    cursor: pointer;
                 }
             .forgot {
                 display: inline-block;
@@ -135,24 +136,55 @@ body {
                 font-size: 15px;
             }
         footer {
-            width: 100%;
+            width: 400px;
+            margin-left: calc((100% - 400px) / 2);
             text-align: center;
             margin-top: 20px;
+            border-bottom: 3px solid #F0F0F0;
+            margin-bottom: 15px;
         }
         .account {
             color: #2D2E31;
             text-decoration: none;
             font-weight: bold;
-            
+            margin-top: 20px;
+        }
+        .signup-btn {
+            border-radius: 21px;
+            border: 3px solid#987D77;
+            text-transform: uppercase;
+            font-size: 12px;
+            padding: 10px;
+            color: #8D7C8C;
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
 
 @media (max-width: 1000px) {
     .container {
         width: 800px;
-        margin-left: calc((100% - 800px) / 2);
+        margin: calc((100% - 800px) / 2);
         background-color: red;
         text-align: center;
-        
- 
     }
+}
+@media (max-width: 800px) {
+    .container {
+        width: 600px;
+        margin: calc((100% - 600px) / 2);
+        background-color: green;
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        width: 400px;
+        margin: calc((100% - 400px) / 2);
+        background-color: yellow;
+        text-align: center;
+    }
+        .form {
+            display: inline-block;
+
+        }
 }
