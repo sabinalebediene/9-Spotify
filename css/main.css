@@ -50,7 +50,6 @@ body {
             text-transform: uppercase;
             margin-top: 30px;
             margin-bottom: 30px;
-            border-bottom: 3px solid #E4E5E6;
             cursor: pointer;
         }
             .blue-btn {
@@ -90,6 +89,20 @@ body {
                 margin-top: 10px;
                 margin-bottom: 30px;
             }
+            h1 {
+                font-size: 15px;
+            }
+            h1:before, h1:after {
+                content: "";
+                display: inline-block;
+                width: 47%;
+                margin: 0 .5em 0 -55%;
+                vertical-align: middle;
+                border-bottom: 3px solid #EDEEEF;
+            }
+            h1:after {
+                margin: 0 -55% 0 .5em;
+              }
         .form {
             display: inline-block;
             text-align: center;
