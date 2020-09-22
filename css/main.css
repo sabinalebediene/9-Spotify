@@ -89,6 +89,9 @@ body {
                 margin-top: 10px;
                 margin-bottom: 30px;
             }
+        .line {
+            
+        }
             h1 {
                 font-size: 15px;
             }
@@ -178,8 +181,7 @@ body {
             margin-top: 20px;
             margin-bottom: 20px;
             cursor: pointer;
-        }
-
+        } 
 @media (max-width: 1100px) {
         .container {
         width: 800px;
@@ -197,6 +199,9 @@ body {
         .row, .form, footer {
             width: 400px;
             margin-left: calc((100% - 400px) / 2);
+        }
+        h1:before, h1:after {
+            width: 46%;
         }
 }
 @media (max-width: 700px) {
@@ -219,5 +224,8 @@ body {
         .row, .form, footer {
             width: 350px;
             margin-left: calc((100% - 350px) / 2);
+        }
+        h1:before, h1:after {
+            width: 45%;
         }
 }
